@@ -22,13 +22,13 @@ function colourspage() {
   return (
     <>
       <div className="md:hidden tracking-wide">
-        <ol className="flex flex-row w-full m-2 md:hiddden justify-between">
+        <ol className="flex flex-row w-full md:hiddden justify-between">
           <li className="text-4xl ml-1 text-black font-bold md:hiddden">01</li>
           <li className="ml-2 mt-[6px] text-xs md:hiddden ">SELECT MODEL</li>
           <li className="ml-2 text-4xl font-bold md:hiddden ">02</li>
           <li className="ml-1 mt-[6px] text-xs md:hiddden ">SELECT COLOR</li>
           <li className="ml-2 text-4xl font-bold text-gray-400 md:hiddden ">03</li>
-          <li className="ml-1 mr-1 text-xs mt-[6px] text-gray-500 md:hiddden ">YOUR DETAILS AND PREFERRED LOCATION</li>
+          <li className="ml-1 text-xs mt-[6px] text-gray-500 md:hiddden ">YOUR DETAILS AND PREFERRED LOCATION</li>
         </ol>
       </div>
       <div className=" w-full h-[1px] bg-gray-300 align-middle justify-center md:hidden"></div>
